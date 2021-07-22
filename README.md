@@ -2,7 +2,7 @@
 ## 目录结构
 
 # docker-lnmp
-    -app     站点目录
+    -app     #站点目录
     -data    数据目录
     -logs    日志目录
         --mysql   chown -R 999 mysql ,更改所有者
