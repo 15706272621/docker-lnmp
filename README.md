@@ -26,7 +26,7 @@
 		Dockerfile
 		php-dev.ini
 		php-fpm.conf
-        --redis
+            --redis
 		Dockerfile
-	docker-compose.yml
+	    docker-compose.yml
 
