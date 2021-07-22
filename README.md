@@ -1,7 +1,5 @@
 # docker-lnmp
 ## 目录结构
-
-# docker-lnmp
     -app     #站点目录
     -data    #数据目录
     -logs    #日志目录
