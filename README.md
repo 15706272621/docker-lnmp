@@ -1,2 +1,2 @@
-# lnmp
+# docker-lnmp
 docker-lnmp
