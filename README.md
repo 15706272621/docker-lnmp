@@ -6,7 +6,7 @@
         --mysql   #chown -R 999 mysql ,更改所有者
         --nginx
         --php-fpm
-	--redis
+        --redis
     -server  #lnmp配置目录
         --mysql
 	    --conf.d  
