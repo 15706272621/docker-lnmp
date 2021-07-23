@@ -1,0 +1,1 @@
+chown -R 999 mysql ,更改所有者
