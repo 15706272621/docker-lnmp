@@ -26,9 +26,9 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 ENV PATH $COMPOSER_HOME/vendor/bin:$PATH
 
 # Install Redis
-RUN pecl install -o -f redis-5.2.2 \
-    && rm -rf /tmp/pear \
-    && docker-php-ext-enable redis
+RUN pecl install -o -f redis \
+&& rm -rf /tmp/pear \
+&& docker-php-ext-enable redis
     
 RUN rm -f /home/redis.tgz \
         rm -f /home/cphalcon.tar.gz 
